@@ -1,0 +1,245 @@
+body {
+    background-color: rgb(9, 153, 243);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    font-size:larger;
+    border-style:solid;
+    border-radius: 20px;
+    background-color:  rgb(254, 217, 6);
+}
+header h1 {
+    position: relative;
+    left: 20px;
+    text-shadow: 3px 3px rgb(243, 162, 12);
+    padding: -100px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header img {
+    position: relative;
+    top: 10px;
+    right: 10px;
+    height: 3cm;
+    width: 3cm;
+}
+header img:hover{
+    cursor:pointer;
+}
+
+nav {
+    margin: 10px 500px 0 500px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: rgb(255, 185, 168);
+    box-shadow: 2px 3px 2px rgb(138, 25, 25);
+    text-align: center;
+}
+nav a {
+    margin: 10px;
+    color: black;
+}
+nav a:hover{
+    animation-name: enlarge;
+    animation-duration: 0.5s;
+    font-size:30px;
+    background-color: yellow;
+}
+@keyframes enlarge {
+    0%{font-size: 20px}
+    100%{font-size: 30px}
+}
+
+footer {
+    right: 0;
+    text-align:left;
+    border-style:solid;
+    border-radius: 15px;
+    background-color:  rgb(153, 255, 187);
+    height: 100px;
+    width: 1500px;
+    position:relative;
+     bottom: 0px; left: 0;  
+    width: 100%;
+    height:auto;
+    text-align: center;
+    text-decoration: double;
+    text-size-adjust: 10px;
+    top: -1200px;
+
+}
+
+.policy {
+    margin: 0 500px 0 500px;
+    position: relative;
+    top: 200px;
+    border: 3px;
+    border-radius: 15px;
+    border-style: solid;
+    text-align: center;
+    background-color: rgb(240, 169, 16);
+}
+
+.information {
+    position:relative;
+    margin: 70px 0 0500px;
+    border: 2px;
+    padding: 100px;
+    border-radius: 15px;
+    border-style: solid;
+    background-color:  rgb(16, 242, 242);
+    box-shadow: 5px 10px rgb(0, 14, 13);
+}
+
+
+form span {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+    text-decoration: underline;
+    display:inline-block;
+    text-align:left;
+    width: 150px;
+    margin: 1px;
+}
+input, textarea  {
+    font-style: italic;
+    box-sizing: border-box;
+    margin: 2px;
+ }
+.checkbox {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    size: 100px;
+    height: 100px;
+    width: 300px;
+    color: bisque;
+}
+
+div.productDesc {
+    text-align: center;
+ }
+#submit, #reset{
+    position: relative;
+    margin-top: 10px;
+    margin-left: 5px;
+    width: 150px;
+    border-radius: 15%;
+ }
+
+aside {
+  
+    position: relative;
+    margin: 70px 0 0500px;
+    padding: 100px;
+    top: -800px;
+    border-radius: 15%;
+    border-style: solid;
+    background-color: rgb(15, 244, 217);
+    text-align: center;
+    box-shadow: 5px 10px rgb(4, 215, 239) 
+}
+aside h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    text-decoration:solid;
+    text-align: center;
+    top: 10px;
+    border-style: solid;
+    border-radius: 20px;
+    background-color: rgb(255 219 15);
+}
+
+ aside p {
+    font-size: 1em;
+    padding: 5px;
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(214, 44, 44);
+ }
+
+
+
+@keyframes lift {
+    0% {box-shadow: 0px 0px rgb(243, 162, 57)}
+    25% {box-shadow: 1px 2px rgb(243, 162, 57)}
+    50% {box-shadow: 2px 4px rgb(243, 162, 57)}
+    75% {box-shadow: 3px 8px rgb(243, 162, 57)}
+    100% {box-shadow: 5px 10px rgb(243, 162, 57)}
+}
+
+
+
+@keyframes shake {
+    0% {transform: translateX(0px)}
+    25% {transform: translateX(7px)}
+    50% {transform: translateX(-7px)}
+    75% {transform: translateX(7px)}
+    100% {transform: translateX(0px)}
+}
+
+.required {
+    position: relative;
+    margin: 70px 0 0500px;
+    padding: 100px;
+    top: -400px;
+    border-radius: 15%;
+    border-style: solid;
+    background-color: rgb(15, 244, 217);
+    text-align: center;
+    box-shadow: 5px 10px rgb(4, 215, 239) 
+      
+    
+   
+}
+.required p {
+    background-color: rgb(231, 159, 14);
+    font-weight: bold;
+    border-radius: 10%;
+    border: 3px;
+}
+
+.reflection {
+    
+    position: absolute;
+    margin: 70px 0 0 500px;
+    border: 2px;
+    padding: 10px;
+    border-radius: 15px;
+    border-style: solid;
+    background-color:  rgb(247, 227, 8);
+    box-shadow: 5px 10px rgb(152, 6, 249);
+
+}
+.reflection h2, .references h2 {
+    color:red;
+    font-weight: bold;
+}
+.Reflection p, .references p {
+    color:rgba(13, 254, 190, 0.449);
+    font-weight: bold;
+}
+.Reflection p {
+    margin: 10px 10px;
+    background-color: aqua;
+}
+.references {
+    position: absolute;
+    background-color: rgb(5, 79, 27);
+    border-radius: 15%;
+    margin-top: 100px;
+    box-shadow: 5px 10px rgb(11, 100, 26);
+    border-style: solid;
+    position: absolute;
+   left: 150px;
+}
+.references h2{
+    text-align: center;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    left: 1000px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
